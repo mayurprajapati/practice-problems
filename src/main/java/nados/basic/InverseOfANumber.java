@@ -1,10 +1,12 @@
-package basic;
+package nados.basic;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
 /**
+ * https://nados.io/question/inverse-of-a-number
+ * 
  * Inverse number based on number positions
  * 
  * 1 <= dig <= size(max digit)

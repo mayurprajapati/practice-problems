@@ -1,7 +1,8 @@
-package basic;
+package nados.basic;
 
 import java.util.Scanner;
 
+// https://nados.io/question/count-digits-in-a-number
 public class CountDigitsInNumber {
 
 	public static void main(String[] args) {

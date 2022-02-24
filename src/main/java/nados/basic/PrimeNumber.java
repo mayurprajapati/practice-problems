@@ -1,7 +1,8 @@
-package basic;
+package nados.basic;
 
 import java.util.Scanner;
 
+// https://nados.io/article/primes-till-n
 public class PrimeNumber {
 
 	public static void main(String[] args) {

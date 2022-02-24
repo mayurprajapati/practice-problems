@@ -1,7 +1,8 @@
-package basic;
+package nados.basic;
 
 import java.util.Scanner;
 
+// https://nados.io/question/print-fibonacci-numbers-till-n
 public class FibonacciNumber {
 
 	public static void main(String[] args) {

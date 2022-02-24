@@ -1,7 +1,8 @@
-package basic;
+package nados.basic;
 
 import java.util.Scanner;
 
+// https://nados.io/question/rotate-a-number
 public class RotateANumber {
 
 	public static void main(String[] args) {

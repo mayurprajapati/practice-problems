@@ -1,7 +1,8 @@
-package basic;
+package nados.basic;
 
 import java.util.Scanner;
 
+// https://nados.io/question/reverse-a-number
 public class ReverseNumber {
 
 	public static void main(String[] args) {

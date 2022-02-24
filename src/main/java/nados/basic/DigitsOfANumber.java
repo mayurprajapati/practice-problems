@@ -1,10 +1,11 @@
-package basic;
+package nados.basic;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+// https://nados.io/question/digits-of-a-number
 public class DigitsOfANumber {
 
 	public static void main(String[] args) {
