@@ -29,24 +29,21 @@ public class FindAPairWithTheGivenSumInAnArray {
 	}
 
 	public static void findPair(int[] nums, int target) {
-		// create an empty HashMap
-		Map<Integer, Integer> map = new HashMap<>();
+		// we could use hash set
+		Map<Integer, Integer> memory = new HashMap<>();
 
-		// do for each element
 		for (int i = 0; i < nums.length; i++) {
-			// check if pair (nums[i], target-nums[i]) exists
+			int num = nums[i];
+			int left = target - num;
 
-			// if the difference is seen before, print the pair
-			if (map.containsKey(target - nums[i])) {
-				System.out.printf("Pair found (%d, %d)", nums[map.get(target - nums[i])], nums[i]);
+			if (memory.containsKey(left)) {
+				System.out.println(num + " " + left);
 				return;
 			}
 
-			// store index of the current element in the map
-			map.put(nums[i], i);
+			memory.put(num, i);
 		}
 
-		// we reach here if the pair is not found
 		System.out.println("Pair not found");
 	}
 
