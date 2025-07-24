@@ -2,6 +2,7 @@ package dsa_practice_problems_500;
 
 import java.util.Arrays;
 
+// https://www.techiedelight.com/sort-binary-array-linear-time/
 public class SortBinaryArrayInLinearTime {
 	public static void main(String[] args) {
 		int[] arr = new int[] { 1, 0, 1, 0, 1, 0, 0, 1 };
